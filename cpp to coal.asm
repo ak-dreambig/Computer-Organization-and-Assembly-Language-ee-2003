@@ -1,4 +1,29 @@
-[org 0x100]                       ; Aimal khan ...... p20-0028.......Q4
+;Q: Convert the following code in assembly language	.			[Marks: 6]
+a=0
+b=200
+c=30
+
+while (a! =b)
+{
+     if(a<100)
+        {
+            a=c+10
+         }
+      elseif (a==100)
+         {
+          break;
+          }
+      else
+          {
+           a+=10
+           }
+
+
+; Assembly laguage code. 
+
+; Aimal khan ...... p20-0028.......Q4
+
+[org 0x100]                       
 
 mov ax,0
 mov bx,200
